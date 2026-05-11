@@ -7,6 +7,7 @@
 //
 import Foundation
 
+@available(iOS 8.0, macOS 10.10, watchOS 2.0, tvOS 9.0, *)
 extension Data {
     func byteSwapped<T: FixedWidthInteger>(_ type: T.Type) -> Data {
         guard count >= MemoryLayout<T>.size else { return self }

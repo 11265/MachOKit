@@ -8,6 +8,7 @@
 
 import Foundation
 
+@available(iOS 8.0, macOS 10.10, watchOS 2.0, tvOS 9.0, *)
 extension String {
     @_spi(Support)
     public typealias CCharTuple8 = (CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar)
@@ -22,6 +23,7 @@ extension String {
     }
 }
 
+@available(iOS 8.0, macOS 10.10, watchOS 2.0, tvOS 9.0, *)
 extension String {
     @_spi(Support)
     public typealias CCharTuple16 = (CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar)
@@ -36,6 +38,7 @@ extension String {
     }
 }
 
+@available(iOS 8.0, macOS 10.10, watchOS 2.0, tvOS 9.0, *)
 extension String {
     @_spi(Support)
     public typealias CCharTuple32 = (CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar, CChar)
@@ -50,6 +53,7 @@ extension String {
     }
 }
 
+@available(iOS 8.0, macOS 10.10, watchOS 2.0, tvOS 9.0, *)
 extension String {
     @_spi(Support)
     public init?(cString data: Data) {

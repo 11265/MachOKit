@@ -32,8 +32,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/p-x9/swift-fileio.git",
-            from: "0.13.0"
+            url: "https://github.com/11265/swift-fileio.git",
+            branch: "fix-ios-availability"
         ),
         .package(
             url: "https://github.com/p-x9/swift-fileio-extra.git",
